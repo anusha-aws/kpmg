@@ -22,26 +22,11 @@ Note: 1)By default I have used the latest version of RDS and later I have notice
 
 https://bugs.mysql.com/bug.php?id=85946
 
-2) To create the 3 tier env I have used the all default/free resources type, In real time we should create new VPC, Internet gateway, subnets, route tables,SG, etc..then only we should create the application infrastructure as we should not use any default services.
-
-- Below is the 3-tier environment web page. 
-
- 
-
-image.png
-
- 
-
- 
+2) To create the 3 tier env I have used the all default/free resources type, In real time we should create new VPC, Internet gateway, subnets, route tables,SG, etc..then only we should create the application infrastructure as we should not use any default services. Please check the webpage attachment in mail.
 
 Challenge #2
 
 Summary
-
-We need to write code that will query the meta data of an instance within aws and provide a json formatted output.
-
- 
-
 We need to write code that will query the meta data of an instance within aws and provide a json formatted output.
 
  I have used the basic CoudFormation template to create the two Ec2 instances and ELB with sample website creation by passing the metadata and user data .
