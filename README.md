@@ -44,9 +44,9 @@ We need to write code that will query the meta data of an instance within aws an
 
 We need to write code that will query the meta data of an instance within aws and provide a json formatted output.
 
--          I have used the basic CoudFormation template to create the two Ec2 instances and ELB with sample website creation by passing the metadata and user data .
-
--          Please find the attached elb_sample_templete.txt file for more details.
+ I have used the basic CoudFormation template to create the two Ec2 instances and ELB with sample website creation by passing the metadata and user data .
+ 
+Please find the attached elb_sample_templete.txt file for more details.
 
 Note:  I have created the temporary AWS user account to verify the challenge#1 and challenge #2  in AWS,Please use the below login details.
 
@@ -60,11 +60,8 @@ Password: Password@123
 
 Challenge #3  
 
- 
+  I have used the simple java script to use the nested objects
 
--          I have used the simple java script to use the nested objects
-
- 
 
 <!DOCTYPE html>
 <html>
@@ -91,8 +88,7 @@ document.getElementById("demo").innerHTML = myFunction(obj);
 </body>
 </html> 
 
--          I thought of using boto3 but it doesn’t have objects It having classes which works similar to objects.
+ I thought of using boto3 but it doesn’t have objects It having classes which works similar to objects.
 
--          I’m having experience in boto3 with AWS the prospective as the boto3 is fully integrated with all services in aws so it is quite easy to use for automation.
-
--          However, I have not got a chance to work as a developer, just used the boto3 to automate some of the tasks in AWS like Deleting the snapshots which are older than 30 days, Creating weekly report integrating with Grafana dashboard, S3 related tasks, EFS, etc..
+I’m having experience in boto3 with AWS the prospective as the boto3 is fully integrated with all services in aws so it is quite easy to use for automation.
+ However, I have not got a chance to work as a developer, just used the boto3 to automate some of the tasks in AWS like Deleting the snapshots which are older than 30 days, Creating weekly report integrating with Grafana dashboard, S3 related tasks, EFS, etc..
