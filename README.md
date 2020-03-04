@@ -45,34 +45,7 @@ Password: Password@123
 
 Challenge #3  
 
-  I have used the simple java script to use the nested objects
-
-
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>JavaScript Objects</h2>
-
-<p id="demo"></p>
-
-<script>
-Create an object:
-var person = {name:"xyz", age:"50", vechiles:{
-jeep:"wranglar",car:"polo",bike:"honda"}};
-
-Display some data from the object:
-//document.getElementById("demo").innerHTML = person.vechiles.car;
-
-function myFunction(x1) {
-   return document.getElementById("demo").innerHTML = x1.x.y.z;
-}
-document.getElementById("demo").innerHTML = myFunction(obj);
-</script>
-
-</body>
-</html> 
-
+ I have used the simple java script to use the nested objects
  I thought of using boto3 but it doesn’t have objects It having classes which works similar to objects.
 
 I’m having experience in boto3 with AWS the prospective as the boto3 is fully integrated with all services in aws so it is quite easy to use for automation.
